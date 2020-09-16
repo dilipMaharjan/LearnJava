@@ -1,0 +1,6 @@
+Kafka
+
+Pre-requisites
+ - Install kafka
+ - Run Zookeeper server
+ - Run Kafka server

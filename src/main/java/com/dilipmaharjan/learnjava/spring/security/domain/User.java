@@ -1,4 +1,4 @@
-package com.dilipmaharjan.learnjava.springsecurity.domain;
+package com.dilipmaharjan.learnjava.spring.security.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
