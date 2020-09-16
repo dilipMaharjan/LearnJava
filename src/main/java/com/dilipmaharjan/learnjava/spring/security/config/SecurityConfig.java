@@ -1,4 +1,4 @@
-package com.dilipmaharjan.learnjava.springsecurity.config;
+package com.dilipmaharjan.learnjava.spring.security.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -35,6 +35,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.csrf().disable()
 				.authorizeRequests()
 				.antMatchers("/todos/**").permitAll()
+				.antMatchers("/events/**").permitAll()
 				.antMatchers("/console/**").permitAll()
 				.antMatchers("/admin/**").hasAnyRole("ADMIN")
 				.anyRequest().hasAnyRole("USER").and()
