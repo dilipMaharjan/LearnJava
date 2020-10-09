@@ -1,4 +1,4 @@
-package com.dilipmaharjan.learnjava.springsecurity.config;
+package com.dilipmaharjan.learnjava.spring.security.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,0 +1,49 @@
+Multithreading 
+- Executing several task simulataneously 
+- Process based 
+  - Executing several task simulataneously where each task is independed process
+  - OS level multitasking 
+- Thread Based
+  - Executing several task simultaneously where each task is part of same process
+  - Programatic level multitasking
+  - Thread
+    - A flow of executaion
+    - Create, start a thread 
+        - class MyThread extends Thread(){} 
+        - MyThread myThread = new MyThread();
+        - myThread.start()
+        - main thread is responsible for starting child thread.
+        - start  method
+          - register this thread with Thread scheduler
+          - Perform all other mandatry activities
+          - Invoke run
+        - Overloading run method is possible but start method always calls no arg run method and overloaded method needs to be called explicitly 
+   - life cycle
+      - Thread t=new Thread()  
+      - t.start() ->Ready/Runnable
+      - allocates processor ->Running
+      - run completes ->Dead   
+   - Every thread has a priority either assigned by jvm or manually.
+   - range of priority is 1-10
+   - Thread.MIN_PRIORITY=1
+   - Thread.NORM_PRIORITY=5
+   - Thread.MAX_PRIORITY=10
+   - Child Thread default priority is inherited from main thread, so not necessarily 5
+   - Synchonization
+     - Only can be accessed by one thread at a time
+     - Eliminates the data inconsistancy problem
+     - applicable for only methods and blocks
+     - synchronized key word is used to make the method or blocks sunchrozied
+     - Performance problem occurs due to synchronization
+   - Green Thread
+     - Thread managed by only JVM is called Green Thread model
+     - The threads managed by JMV with the help of OS is called native OS model.
+   - Thread group
+     - Contains group of threads
+     - Can also contain sub thread group
+     - Common operation can be executed easily
+   - Thread pool
+     -   
+     
+     
+   

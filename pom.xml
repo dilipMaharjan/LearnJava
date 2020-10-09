@@ -46,6 +46,19 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- Kafka -->
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-clients</artifactId>
+		</dependency>
+
+		<!-- Batch Processing -->
+		<dependency>
+			<groupId>org.springframework.batch</groupId>
+			<artifactId>spring-batch-core</artifactId>
+		</dependency>
+
+
 		<!-- UI -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

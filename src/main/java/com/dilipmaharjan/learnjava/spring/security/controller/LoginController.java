@@ -1,4 +1,4 @@
-package com.dilipmaharjan.learnjava.springsecurity.controller;
+package com.dilipmaharjan.learnjava.spring.security.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
