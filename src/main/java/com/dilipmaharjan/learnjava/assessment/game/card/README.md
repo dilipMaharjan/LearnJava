@@ -20,4 +20,5 @@ Suit and Ranks are enums of suit and ranks
 Clone the project 
 
 If you are running the program from command line, compile the classes and run Game.java
+
 If you are using ide(intellij or any ide of your choice) like I am , you can import the project and run Game.java
