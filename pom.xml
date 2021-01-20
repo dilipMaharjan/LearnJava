@@ -90,7 +90,7 @@
             <artifactId>vertx-config</artifactId>
             <version>3.9.4</version>
         </dependency>
-
+        <!--vertx -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

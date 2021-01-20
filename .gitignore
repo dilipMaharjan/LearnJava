@@ -37,4 +37,10 @@ build/
 .vscode/
 
 ### git ###
-.attach_*
+!/.attach_*
+!/.mvn/
+.attach_pid26081
+.attach_pid337538
+.attach_pid66712
+.attach_pid70859
+
