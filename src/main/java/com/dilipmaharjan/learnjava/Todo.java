@@ -1,15 +1,20 @@
-package com.dilipmaharjan.learnjava.spring.kafka.domain;
+package com.dilipmaharjan.learnjava;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author Dilip
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Builder
-public class Event {
-	private Integer id;
-	private Book book;
+public class Todo {
+    private long id;
+    private String title;
+    private String description;
+
 }
