@@ -1,4 +1,4 @@
-package com.dilipmaharjan.learnjava.algorithms.dynamicprogramming;
+package com.dilipmaharjan.learnjava.algorithms.dynamicprogramming.memoization;
 
 import java.math.BigInteger;
 import java.util.HashMap;
